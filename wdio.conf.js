@@ -53,10 +53,10 @@ exports.config = {
     //
     capabilities: [{
         path:'/wd/hub',
-        platformName:'Android',
+        'platformName':'Android',
         'appium:deviceName':'Pixel 5 Android 10',
         'appium:app':join(process.cwd(),'./app-debug.apk')
-        //'browserName':'Browser',
+        
         
 
 
